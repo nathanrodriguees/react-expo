@@ -1,25 +1,12 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View, Image } from "react-native";
+import { Text, View, Image } from "react-native";
+import { style } from "./src/class/StyleExternal";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Hello World</Text>
-      <Image source={require("./assets/favicon.png")} />
-      <StatusBar style="auto" />
+    <View style={style.container}>
+      <Image source={require("./assets/favicon.png")}></Image>
+      <Text style={style.title}>INDMO</Text>
+      <Text style={style.paragraph}>Hello World</Text>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  title: {
-    color: "#f00",
-    fontSize: 100,
-  },
-});
