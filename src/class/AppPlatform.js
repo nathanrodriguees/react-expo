@@ -1,4 +1,4 @@
-import * as S from './src/class/StyleComponentsExternal';
+import * as S from './StyleComponentsExternal';
 import { Platform, StyleSheet } from 'react-native';
 
 export default function App() {
@@ -14,7 +14,7 @@ const teste = StyleSheet.create({
   container: {
     flex: 1,
     display: "flex",
-    backgroundColor: Platform.OS === 'IOS' ? '#fff' : '#000'
+    backgroundColor: Platform.OS === 'android' ? '#000' : '#fff'
   }
 }
 
