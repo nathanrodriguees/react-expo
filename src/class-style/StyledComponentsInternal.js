@@ -6,7 +6,7 @@ const PageContainer = styled.View`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #FABACA;
+  background-color: #fabaca;
 `;
 
 const PageTitle = styled.Text`
@@ -23,11 +23,11 @@ const PageSubTitle = styled.Text`
   color: rosybrown;
 `;
 
-export default function App() {
+export default function sssssssss() {
   return (
     <PageContainer>
-        <PageTitle>Hellou World</PageTitle>
-        <PageSubTitle>Test</PageSubTitle>
+      <PageTitle>Hellou World</PageTitle>
+      <PageSubTitle>Test</PageSubTitle>
     </PageContainer>
   );
 }
