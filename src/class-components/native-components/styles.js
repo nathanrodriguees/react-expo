@@ -6,23 +6,25 @@ export const Container = styled.View`
   justify-content: center;
   align-items: center;
   background-color: red;
-  margin-top: 10px;
+  gap: 10px;
 `;
 
 export const CardContainer = styled.View`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  border-radius: 20px;
+  background-color: black;
+  width: 200px;
+  height: 100px;
+  border-radius: 6px;
 `;
 
 export const CardTitle = styled.Text`
   font-size: 30px;
-  color: aqua;
+  color: white;
 `;
 
-export const CardSubTitle = styled.Text`
+export const CardSubtitle = styled.Text`
   font-size: 15px;
-  color: aqua;
+  color: white;
 `;

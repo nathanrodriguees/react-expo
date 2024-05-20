@@ -1,7 +1,7 @@
-import CreativeComponent from "./src/class-components/native-components/index";
+import CreativeComponent from "./src/class-components/native-components";
 
 export default function App() {
   return (
-    <CreativeComponent />
+    <CreativeComponent/>
   );
 }
